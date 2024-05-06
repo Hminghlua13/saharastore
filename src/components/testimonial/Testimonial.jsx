@@ -1,0 +1,50 @@
+import React, { useContext } from 'react'
+import myContext from '../../context/data/myContext'
+
+function Testimonial() {
+  const context = useContext(myContext);
+  const { mode } = context;
+  return (
+    <div>
+      <section className=''>
+        <div className="container mx-auto px-5 py-10">
+          <h1 className=' text-center text-3xl font-bold text-black' style={{ color: mode === 'dark' ? 'white' : '' }}>Testimonial</h1>
+          <h2 className=' text-center text-2xl font-semibold mb-10' style={{ color: mode === 'dark' ? 'white' : '' }}>What our <span className=' text-pink-500'>customers</span> are saying</h2>
+          <div className="flex -m-4">
+            <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div className="h-full text-center">
+                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="data:image/jpeg;base64,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" />
+                <p style={{ color: mode === 'dark' ? 'white' : '' }} className="leading-relaxed">Kei hi Er Chhungpuia Renthlei ka ni a he Project ka naute siam hi tha kati em em a,achhan chu tha kati ani</p>
+                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
+                <h2 style={{ color: mode === 'dark' ? '#ff4162' : '' }} className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Er Chhungpuia Renthlei</h2>
+                <p style={{ color: mode === 'dark' ? 'white' : '' }} className="text-gray-500">Senior Product Designer</p>
+              </div>
+            </div>
+
+            <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div className="h-full text-center">
+                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://cdn-icons-png.flaticon.com/128/2763/2763444.png" />
+                <p style={{ color: mode === 'dark' ? 'white' : '' }} className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
+                <h2 style={{ color: mode === 'dark' ? '#ff4162' : '' }} className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">React Js</h2>
+                <p style={{ color: mode === 'dark' ? 'white' : '' }} className="text-gray-500">UI Develeoper</p>
+              </div>
+            </div>
+            <div className="lg:w-1/3 lg:mb-0 p-4">
+              <div className="h-full text-center">
+                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://webknudocs.vercel.app/logo/react.png" />
+                <p style={{ color: mode === 'dark' ? 'white' : '' }} className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
+                <h2 style={{ color: mode === 'dark' ? '#ff4162' : '' }} className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">React Js</h2>
+                <p style={{ color: mode === 'dark' ? 'white' : '' }} className="text-gray-500">CTO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  )
+}
+
+export default Testimonial
