@@ -1,6 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
+  "homepage": "http://Hminghlua13.github.io.sahara",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
