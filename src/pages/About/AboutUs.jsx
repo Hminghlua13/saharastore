@@ -13,7 +13,7 @@ function AboutUs() {
             He Website kan develop chhan tak chu, tunlai khawvel changkang zelin a kentel online a bazar hi mizo te ngei pawhhian kan ching ve tawh a.Amaherawh chu kan han bazar ve tak tak dawn hian vai ho website ami kanla hmang zela Mizo te hian hma kan sawn ve atul tawh takzet a, Chuvang chuan he website hi mizo ngeiin a kan siam niin inchawi kan tawn zel hi kan mamawh ani
           </p>
           <p>
-            Online Store tha tak tak(Flipkar, Amazon) kan hmang tlangpuia, kan thil chah lo thlen nan nithum atang ninga tal nghah angai thin a, chung buaina sut kian nan chuan kan ramchhung ngei ami hi lo chah ve ta che,chahsual tihvel awmve theilo ang hiala ngaih ani a,ilo chahsual palh anih pawhin return leh pawh awlsam tak ani.
+            Online Storeasdasd tha tak tak(Flipkar, Amazon) kan hmang tlangpuia, kan thil chah lo thlen nan nithum atang ninga tal nghah angai thin a, chung buaina sut kian nan chuan kan ramchhung ngei ami hi lo chah ve ta che,chahsual tihvel awmve theilo ang hiala ngaih ani a,ilo chahsual palh anih pawhin return leh pawh awlsam tak ani.
           </p>
 
           
